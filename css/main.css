@@ -1,0 +1,213 @@
+/***** BASE STYLES *****/
+body{
+  font-family: 'Roboto', sans-serif;
+  color: #ffffff;
+}
+
+/***** GRID *****/
+.full-width {
+    width: 1200px;
+    margin: 0 auto;
+}
+.half-width {
+    width: 600px;
+    float: left;
+}
+.third-width {
+    width: 400px;
+    float: left;
+}
+
+/***** NAV BAR SECTION *****/
+#nav-bar h1 {
+    text-transform: uppercase;
+    font-size: 18px;
+    color: #ffffff;
+    padding: 8px 0 65px 25px;
+    font-weight: lighter;
+}
+#nav-bar{
+  height: 50px;
+  background: #1f202b;
+  background-size: cover;
+}
+#nav-bar nav {
+    float: right;
+    padding: 0px 25px;
+}
+#nav-bar nav ul li{
+    display: inline-block;
+    margin-right: 1px;
+}
+#nav-bar nav ul li a {
+    text-transform: uppercase;
+    text-decoration: none;
+    font-size: 18px;
+    color: #ffffff;
+    padding-left: 65px;
+
+}
+/***** HEADER SECTION *****/
+#home-header{
+  height: 800px;
+  background: #1f202b;
+  background-image: url('../img/hero.png');
+  background-size: cover;
+}
+
+#site-header{
+    height: 450px;
+    background: #ebebeb;
+    background-size: cover;
+}
+header h2 {
+    width: 1000px;
+    clear: both;
+    font-family: 'Playfair Display', serif;
+    font-size: 72px;
+    line-height: 80px;
+    color: #ffffff;
+    padding: 20px 0 20px 25px;
+}
+header h2 span {
+    color: #fa0075;
+}
+header h3 {
+    width: 1000px;
+    clear: both;
+    font-family: 'Playfair Display', serif;
+    font-size: 48px;
+    line-height: 40px;
+    color: #ffffff;
+    padding: 20px 0 20px 25px;
+}
+header h3 span {
+    color: #fa0075;
+}
+/***** PORTFOLIO SECTION *****/
+#portfolio{
+    background: #1f202b;
+    clear: both;
+    overflow: auto;
+}
+
+#portfolio .full-width{
+    padding: 80px 0;
+}
+#portfolio .half-width{
+    padding: 40px 0 40px;
+}
+#portfolio h2{
+    font-family: 'Playfair Display', serif;
+    font-size: 36px;
+    text-align: center;
+    color: #fa0075;
+}
+#portfolio p span{
+    font-size: 24px;
+    font-weight: bolder;
+}
+
+#portfolio p{
+    font-size: 24px;
+    color: #ffffff;
+    padding-left: 49px;
+    padding-right: 49px;
+}
+
+#portfolio #justify-right{
+    text-align: right;
+    margin-top: 45px;
+    margin-bottom: 48px;
+    }
+}
+#portfolio #justify-left{
+    text-align: left;
+    margin-top: 45px;
+    margin-bottom: 48px;
+}
+
+#portfolio img{
+    border: 2px solid #b7b7b7;
+    margin-left: 49px;
+}
+/***** ABOUT SECTION *****/
+#about{
+  background-image: url('../img/about-me.png');
+  background-size: cover;
+  height: 600px;
+}
+#about .full-width {
+    padding: 40px 0;
+}
+#about .half-width {
+    margin: -25px 0;
+}
+#about .third-width {
+    margin: -25px 0;
+}
+#about h2 {
+    font-family: 'Playfair Display', serif;
+    font-size: 36px;
+    text-align: center;
+}
+#about p {
+    font-size:21;
+    color: #2b2b2b;
+    line-height: 35px;
+    padding-left: 49px;
+    padding-right: 49px;
+    text-align: justify;
+}
+
+#about p span {
+  color: #ffffff;
+  font-weight: bold;
+}
+/***** CONTACT SECTION *****/
+#contact{
+  background: #1f202b;
+  clear: both;
+  height: 600px;
+  text-align: center;
+}
+#contact .full-width {
+    padding: 40px 0;
+}
+#contact img#contact-img {
+    margin-left: 25px;
+    border: 12px solid #ffffff;
+}
+
+#contact h2 {
+    font-family: 'Playfair Display', serif;
+    font-size: 36px;
+    line-height: 44px;
+}
+#contact #email-header, #socialmedia-header, #meet-header{
+    font-size: 32px;
+    font-weight: bold;
+    line-height: 44px;
+    margin: 40px 0 5px 0;
+}
+#contact a {
+    text-decoration: none;
+    color: #ffffff;
+}
+#contact img {
+    padding-top: 30px;
+    padding-right: 10px;
+    padding-left: 10px;
+    margin-left: 12px;
+}
+#contact p{
+  text-align: center;
+  line-height: 35px;
+  clear: both;
+  font-size: 24px;
+}
+#contact h4{
+  text-align: center;
+  padding-top: 250px;
+  font-weight: lighter;
+}
